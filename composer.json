@@ -1,0 +1,32 @@
+{
+  "name": "webdeveric/get-title-shortcode",
+  "description": "Get the post title",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "keywords": [
+    "WordPress",
+    "shortcode",
+    "post",
+    "title"
+  ],
+  "authors": [
+    {
+      "name": "Eric King",
+      "email": "eric@webdeveric.com",
+      "homepage": "http://webdeveric.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/webdeveric/get-title-shortcode",
+    "issues": "https://github.com/webdeveric/get-title-shortcode/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "webdeveric\\GetTitleShortcode\\": "src/"
+    }
+  },
+  "require": {
+    "composer/installers": "^1.0"
+  }
+}
